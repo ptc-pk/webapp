@@ -1,16 +1,21 @@
 import React from 'react';
 import './Letter.css';
 
-function LetterCard() {
+function LetterCard(props: { imgSrc: string, title: string }) {
   return (
     <a href="" className='ptc-letter-card'>
-      <img src="http://gtech.ac.th/img/newsletter/015.jpg" alt="" />
+      <img src={`/letters/${ props.imgSrc }.jpg`} alt={ props.title } />
     </a>
   )
 }
 
 function Letter() {
-  const List = [{}, {}, {}, {}];
+  const List = [
+    { imgSrc: '1', title: '' },
+    { imgSrc: '2', title: '' },
+    { imgSrc: '3', title: '' },
+    { imgSrc: '4', title: '' }
+  ];
 
   return (
     <div className='ptc-main ptc-letter-container'>
@@ -21,7 +26,7 @@ function Letter() {
         </div>
         
         <div className='ptc-letter-result'>
-          { List.map(news => <LetterCard /> ) }
+          { List.map(letter => <LetterCard imgSrc={ letter.imgSrc } title={ letter.title } /> ) }
         </div>
       </div>
     </div>

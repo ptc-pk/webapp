@@ -1,21 +1,21 @@
 import React from 'react';
 import './Event.css';
 
-function EventCard() {
+function EventCard(props: { imgSrc: string, title: string }) {
   return (
-    <a href="" title='ฝึกประสบการณ์วิชาชีพ ณ บริษัท แปซิฟิกการทอ จำกัด' className='ptc-event-card'>
-      <img src="http://gtech.ac.th/img/eventnews/03/03.jpg" alt="" />
-      <p>ฝึกประสบการณ์วิชาชีพ ณ บริษัท แปซิฟิกการทอ จำกัด</p>
+    <a href="" title={ props.title } className='ptc-event-card'>
+      <img src={`/events/${ props.imgSrc }.jpg`} alt="" />
+      <p>{ props.title }</p>
     </a>
   )
 }
 
 function Event() {
   const List = [
-    {},
-    {},
-    {},
-    {}
+    { imgSrc: '1', title: 'สาขาการโรงแรม วิทยาลัยเทคโนโลยีภูเขียว' },
+    { imgSrc: '2', title: 'สาขาการโรงแรม วิทยาลัยเทคโนโลยีภูเขียว' },
+    { imgSrc: '3', title: 'สาขาการโรงแรม วิทยาลัยเทคโนโลยีภูเขียว' },
+    { imgSrc: '4', title: 'ออกบริการชุมชน ซ่อมอุปกรณ์ไฟฟ้า เครื่องยนต์อุปกรณ์การเกษตร ณ บ้านพรมใต้' }
   ];
 
   return (
@@ -27,7 +27,7 @@ function Event() {
         </div>
         
         <div className='ptc-event-result'>
-          { List.map(news => <EventCard />) }
+          { List.map(event => <EventCard imgSrc={ event.imgSrc } title={ event.title } />) }
         </div>
       </div>
     </div>
