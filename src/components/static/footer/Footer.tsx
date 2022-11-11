@@ -33,7 +33,19 @@ function FooterStaticComponent() {
           </div>
         </div>
 
-        <div className='ptc-ft-card'>Center</div>
+        <div className='ptc-ft-card center'>
+          <p className='header'>หน่วยงานส่วนอื่นๆ</p>
+          <ul>
+            <li><a href="" className='content'>ศูนย์เครือข่ายกำลังคนอาชีวศึกษา</a></li>
+            <li><a href="" className='content'>กระทรวงศึกษาธิการ</a></li>
+            <li><a href="" className='content'>สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน</a></li>
+            <li><a href="" className='content'>สำนักงานคณะกรรมการส่งเสริมการศึกษาเอกชน</a></li>
+            <li><a href="" className='content'>คุรุสภา</a></li>
+            <li><a href="" className='content'>กองทุนกู้ยืมเพื่อการศึกษา</a></li>
+            <li><a href="" className='content'>ระบบรายงานการประเมินตนเองของสถานศึกษาอาชีวศึกษา</a></li>
+          </ul>
+        </div>
+
         <div className='ptc-ft-card'>Right</div>
       </div>
     </footer>
