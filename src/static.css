@@ -1,0 +1,9 @@
+.ptc-static {
+  display: flex;
+  justify-content: center;
+}
+
+.ptc-content {
+  width: calc(100% - 60px);
+  max-width: 1200px;
+}
