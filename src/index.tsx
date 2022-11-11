@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
-import HomePage from './pages/Home';
+import HomePage from './pages/home/Home';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
