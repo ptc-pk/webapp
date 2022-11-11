@@ -46,7 +46,9 @@ function FooterStaticComponent() {
           </ul>
         </div>
 
-        <div className='ptc-ft-card'>Right</div>
+        <div className='ptc-ft-card right'>
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F100087123962681&tabs=timeline&width=389&height=360&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="389" height="360" style={{'border': 'none', 'overflow': 'hidden'}} scrolling="no" frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
       </div>
     </footer>
   )
