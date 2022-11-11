@@ -15,3 +15,40 @@
   border-radius: 4px;
   background-color: #f5f5f5;
 }
+
+.ptc-ft-card.left {
+  text-align: unset;
+  background-color: transparent;
+}
+
+.ptc-ft-card.left .lg {
+  width: 100px;
+}
+
+.ptc-ft-card.left .header {
+  margin-top: 1em;
+  font: 500 18px/28px 'Sarabun', sans-serif;
+  color: #eee;
+}
+
+.ptc-ft-card.left .content {
+  font: 400 14px/24px 'Sarabun', sans-serif;
+  color: #999;
+}
+
+.ptc-ft-card.left .call {
+  margin: .8em 0;
+  display: flex;
+  column-gap: 3em;
+}
+
+.block-icon {
+  display: flex;
+  align-items: center;
+}
+
+.block-icon p {
+  margin-left: 10px;
+  font: 500 15px/15px 'Roboto', sans-serif;
+  color: #aaa;
+}
