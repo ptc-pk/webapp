@@ -1,0 +1,30 @@
+.ptc-more-container {
+  margin-top: 50px;
+}
+
+.ptc-more-content {
+  display: flex;
+}
+
+.ptc-more-card {
+  flex: 1;
+  padding: 2em 0;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color .2s;
+}
+
+.ptc-more-card:hover {
+  background-color: #eee;
+}
+
+.ptc-more-card .header {
+  padding-top: .6em;
+  font: 400 20px/36px 'Sarabun', sans-serif;
+  color: #333;
+}
+
+.ptc-more-card .content {
+  font: 400 14px/26px 'Sarabun', sans-serif;
+  color: #333;
+}

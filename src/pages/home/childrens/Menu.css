@@ -1,0 +1,20 @@
+.ptc-menu-list {
+  display: flex;
+  background-color: #d9d1e6;
+}
+
+.ptc-menu-card {
+  flex: 1;
+  padding: 1em 0;
+  text-align: center;
+  transition: .3s;
+}
+.ptc-menu-card:hover {
+  background-color: #f0e7ff;
+}
+
+.ptc-menu-card p {
+  margin-top: .8rem;
+  font: 400 14px/24px 'Sarabun', sans-serif;
+  color: #222;
+}

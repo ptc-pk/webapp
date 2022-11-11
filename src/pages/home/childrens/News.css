@@ -1,0 +1,68 @@
+.ptc-news-container {
+  margin-top: 20px;
+}
+
+.ptc-news-header {
+  display: flex;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.ptc-news-header .borderline {
+  width: 8px;
+  height: 58px;
+  background-color: #fc893d;
+}
+
+.ptc-news-header .title {
+  margin-left: 1rem;
+  font: 500 1.6rem/2.4rem 'Roboto', sans-serif;
+  color: #333;
+}
+
+.ptc-news-result {
+  display: flex;
+  column-gap: .5em;
+  justify-content: space-between;
+}
+
+.ptc-news-card {
+  flex: 1;
+  margin-top: 1em;
+}
+
+.ptc-news-card img {
+  display: block;
+  max-width: 100%;
+  border-radius: 2px;
+}
+
+.ptc-news-create_at {
+  display: flex;
+  align-items: center;
+  margin: .5em 0 .8em;
+}
+
+.ptc-news-create_at p {
+  margin-left: .8em;
+  font: 400 12px/12px 'Sarabun', sans-serif;
+  color: #444;
+}
+
+.ptc-news-title {
+  font: 400 18px/24px 'Sarabun', sans-serif;
+  color: #222;
+}
+
+.ptc-news-description {
+  margin-top: .8em;
+  font: 400 14px/22px 'Sarabun', sans-serif;
+  color: #444;
+}
+
+.ptc-news-limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}

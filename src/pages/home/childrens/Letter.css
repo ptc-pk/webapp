@@ -1,0 +1,40 @@
+.ptc-letter-container {
+  margin-top: 40px;
+  padding: 1em;
+  background-color: #e0deff;
+}
+
+.ptc-letter-header {
+  display: flex;
+  align-items: center;
+  background-color: #28236e;
+}
+
+.ptc-letter-header .borderline {
+  width: 8px;
+  height: 58px;
+  background-color: #fc893d;
+}
+
+.ptc-letter-header .title {
+  margin-left: 1rem;
+  font: 500 1.6rem/2.4rem 'Roboto', sans-serif;
+  color: #f5f5f5;
+}
+
+.ptc-letter-result {
+  display: flex;
+  column-gap: .5em;
+  justify-content: space-between;
+}
+
+.ptc-letter-card {
+  flex: 1;
+  margin-top: 1em;
+}
+
+.ptc-letter-card img {
+  display: block;
+  max-width: 100%;
+  border-radius: 2px;
+}

@@ -1,4 +1,5 @@
-.ptc-static {
+.ptc-static,
+.ptc-main {
   display: flex;
   justify-content: center;
 }
